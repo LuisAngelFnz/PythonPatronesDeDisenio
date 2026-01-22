@@ -51,3 +51,13 @@ Patrones que ayudan a **organizar clases y objetos**, agregando flexibilidad a g
 | **Decorator** | Añade funcionalidades dinámicamente | `decorator.py` |
 | **Facade** | Simplifica sistemas complejos | `facade.py` |
 | **Flyweight** | Optimiza memoria compartiendo objetos pesados | `flyweight.py` |
+| **Proxy** | Controla el acceso a un objeto mediante capas | `proxy.py` |
+
+# ☑️  3. Patrones de Comportamiento
+Patrones que ayudan a **el comportamiento**, Definiendo como los objetos se comunican y colaboran sin acoplarse entre sí.
+| Patrón | Propósito | Archivo |
+|--------|-----------|---------|
+| **ChangeOfResposibity(CoR)** | Controla el flujo de una solicitud | `change_of_responsibity.py` |
+| **State** | El estado actual define el comportamiento | `state.py` |
+| **TemplateMethod** | Controla el flujo fijo y los detalles varían | `template_method.py` |
+| **Observer** | Encapsula una acción como un objeto para desacoplar quién la solicita de quién la ejecuta. | `observer.py` |
